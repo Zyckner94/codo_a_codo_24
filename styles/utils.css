@@ -1,0 +1,51 @@
+.mt-sm {
+  margin-top: 1.2rem !important;
+}
+.mt-md {
+  margin-top: 2.4rem !important;
+}
+.mt-lg {
+  margin-top: 3.2rem !important;
+}
+.mt-xl {
+  margin-top: 4.8rem !important;
+}
+
+.mb-sm {
+  margin-bottom: 1.2rem !important;
+}
+.mb-md {
+  margin-bottom: 2.4rem !important;
+}
+.mb-lg {
+  margin-bottom: 3.2rem !important;
+}
+.mb-xl {
+  margin-bottom: 4.8rem !important;
+}
+
+.ml-sm {
+  margin-left: 1.2rem !important;
+}
+.ml-md {
+  margin-left: 2.4rem !important;
+}
+.ml-lg {
+  margin-left: 3.2rem !important;
+}
+.ml-xl {
+  margin-left: 4.8rem !important;
+}
+
+.mr-sm {
+  margin-right: 1.2rem !important;
+}
+.mr-md {
+  margin-right: 2.4rem !important;
+}
+.mr-lg {
+  margin-right: 3.2rem !important;
+}
+.mr-xl {
+  margin-right: 4.8rem !important;
+}

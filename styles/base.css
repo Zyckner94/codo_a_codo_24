@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary: #44d62c;
+  --color-primary-light-1: #73e161;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-1: #eeeeee;
+  --color-gray-2: #888888;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--color-black);
+  box-sizing: border-box;
+  color: var(--color-gray-1);
+  font-size: 1.6rem;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 128rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.main {
+  padding: 3.2rem 0;
+}
+
+.anchor:link,
+.anchor:visited {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.anchor:link:hover,
+.anchor:visited:hover {
+  text-decoration: underline;
+}
+
+.header {
+  border-bottom: 0.1rem solid var(--color-primary);
+  padding: 2.4rem 0;
+}
+
+.header .header__container {
+  display: flex;
+  align-items: center;
+  column-gap: 6.4rem;
+}
+
+.header .header__navbar {
+  margin-right: auto;
+}
+
+.header__logo {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 3.2rem;
+  text-decoration: none;
+}
+
+.header__options {
+  color: var(--color-gray-2);
+}
+
+.header__icon-wrapper {
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+  transition: color 0.1s ease-in;
+}
+
+.header__icon-wrapper:hover {
+  color: var(--color-white);
+}
+
+.navbar {
+  color: var(--color-gray-2);
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  column-gap: 1.8rem;
+}
+
+.navbar__anchor:link,
+.navbar__anchor:visited {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: currentColor;
+  padding: 1rem 1.8rem;
+  transition: color 0.1s ease-in;
+}
+
+.navbar__anchor:link:hover,
+.navbar__anchor:visited:hover {
+  color: var(--color-white);
+}
+
+.button {
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 1.2rem 3.4rem;
+  transition: background-color 0.2s, outline-color 0.2s, color 0.2s;
+}
+
+.button__body {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.button--fullwidth {
+  width: 100%;
+}
+
+.button--primary {
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-light-1);
+}
+
+.button--secondary {
+  background-color: var(--color-black);
+  outline: 0.3rem solid var(--color-primary);
+  outline-offset: -0.3rem;
+  color: var(--color-primary);
+}
+
+.button--secondary:hover {
+  outline-color: var(--color-primary-light-1);
+  color: var(--color-primary-light-1);
+}
