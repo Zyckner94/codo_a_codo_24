@@ -1,1 +1,14 @@
-/* Store page style */
+.products {
+  background-color: var(--color-gray-5);
+}
+
+.products .products__container {
+  padding: 3.2rem;
+}
+
+.products__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+  justify-items: center;
+  gap: 4.2rem;
+}
