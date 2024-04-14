@@ -12,3 +12,17 @@
   justify-items: center;
   gap: 4.2rem;
 }
+
+.products__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.2rem;
+  column-gap: 2.6rem;
+}
+
+.products__count {
+  flex: 1;
+  color: var(--color-gray-2);
+  font-size: 1.6rem;
+}

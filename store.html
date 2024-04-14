@@ -24,13 +24,16 @@
               <a class="navbar__anchor" href="/">Home</a>
             </li>
             <li class="navbar__list-item">
-              <a class="navbar__anchor" href="/store.html">Store</a>
+              <a class="navbar__anchor" href="/store.html">Mice</a>
             </li>
             <li class="navbar__list-item">
-              <a class="navbar__anchor" href="#">Lorem</a>
+              <a class="navbar__anchor" href="/store.html">Keyboards</a>
             </li>
             <li class="navbar__list-item">
-              <a class="navbar__anchor" href="#">Ipsum</a>
+              <a class="navbar__anchor" href="/store.html">Headphones</a>
+            </li>
+            <li class="navbar__list-item">
+              <a class="navbar__anchor" href="#">Contact us</a>
             </li>
           </ul>
         </nav>
@@ -52,10 +55,29 @@
         </p>
       </section>
       <section class="hero-title">
-        <h1 class="hero-title__text">All products</h1>
+        <h1 class="hero-title__text">Headphones</h1>
       </section>
       <section class="products">
         <div class="container products__container">
+          <div class="products__options">
+            <div class="products__count">4 products</div>
+            <div class="products__view-mode"><!--TODO--></div>
+            <div class="select products__sort-select">
+              <select name="sortBy" id="sortBy" class="default-select">
+                <option class="select__option" value="newest">Newest</option>
+                <option class="select__option" value="priceLowToHigh">
+                  Price (Low to High)
+                </option>
+                <option class="select__option" value="priceHighToLow">
+                  Price (High to Low)
+                </option>
+              </select>
+              <div class="select__label">Sort by</div>
+              <div class="select__icon">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+          </div>
           <div class="products__grid">
             <article class="card">
               <aside class="card__aside">

@@ -18,6 +18,7 @@
   --color-gray-3: #888888;
   --color-gray-4: #555555;
   --color-gray-5: #222222;
+  --color-gray-6: #111111;
 }
 
 html {
@@ -226,4 +227,59 @@ body {
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+}
+
+.select {
+  position: relative;
+  font-family: inherit;
+  min-width: 24rem;
+  cursor: pointer;
+}
+
+.default-select {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 100%;
+  font-size: 1.4rem;
+  font-family: inherit;
+  padding: 1.4rem 4rem 1.4rem 1.6em;
+  background-color: transparent;
+  border: 1px solid var(--color-gray-4);
+  border-radius: 0.3rem;
+  color: var(--color-white);
+  cursor: pointer;
+  outline: none;
+}
+
+.default-select:focus {
+  outline: 0.2rem solid var(--color-primary);
+  outline-offset: -0.1rem;
+}
+
+.default-select:focus + .select__label {
+  color: var(--color-primary);
+}
+
+.select__icon {
+  position: absolute;
+  top: 50%;
+  right: 1.6rem;
+  transform: translateY(-50%);
+  color: var(--color-primary);
+  pointer-events: none;
+}
+
+.select__label {
+  position: absolute;
+  background-color: var(--color-gray-5);
+  top: -0.8rem;
+  left: 1.2rem;
+  font-size: 1.4rem;
+  color: var(--color-gray-2);
+  padding: 0 0.3rem;
+}
+
+.select__option {
+  background-color: var(--color-gray-6);
 }
