@@ -565,7 +565,26 @@ body {
     font-weight: 700;
     cursor: pointer;
   }
-  
+  .footer_class{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 30px;
+    border-bottom: solid 1px var(--color-primary);
+  }
+  .footer_class > a{
+    color: var(--color-gray-3);
+    text-decoration: none;
+  }
+  .footer_class > a:hover{
+    color: var(--color-white);
+  }
+  .footer_links > i{
+    border-right: 30px;
+  }
+  .rights{
+    text-align: center;
+  }
   
   @media (max-width:800px){
     .card-01{
@@ -581,5 +600,10 @@ body {
     .card-03{
       flex: 100%;
       max-width: 600px;
+    }
+    .footer_class{
+      /* padding: 40px; */
+      flex-direction: column;
+      align-items: center;
     }
   }
