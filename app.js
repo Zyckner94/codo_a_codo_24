@@ -1,5 +1,5 @@
-let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');
+let items = document.querySelectorAll('.slider .list .item');
 let prev = document.getElementById('prev');
 let thumbnails = document.querySelectorAll('.thumbnail .item');
 

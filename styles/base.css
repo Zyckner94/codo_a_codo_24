@@ -33,6 +33,17 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 
+button{
+  background-color: #000;
+  border: none;
+}
+.boton{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   max-width: 128rem;
@@ -591,12 +602,10 @@ body {
       flex: 100%;
       max-width: 600px;
     }
-  
     .card-02{
       flex: 100%;
       max-width: 600px;
     }
-  
     .card-03{
       flex: 100%;
       max-width: 600px;
@@ -604,5 +613,18 @@ body {
     .footer_class{
       flex-direction: column;
       align-items: center;
+    }
+    #menu{
+      display: none;
+    }
+    .header .header__container{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar__list{
+      flex-direction: column;
+    }
+    .header__options{
+      margin: 10px 0px 0px 5px;
     }
   }
