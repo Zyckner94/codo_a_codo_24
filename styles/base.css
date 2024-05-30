@@ -77,11 +77,8 @@ button{
   margin-right: auto;
 }
 
-.header__logo {
-  color: var(--color-primary);
-  font-weight: 600;
-  font-size: 3.2rem;
-  text-decoration: none;
+.header_img {
+  width: 150px;
 }
 
 .header__options {
